@@ -1,0 +1,16 @@
+div#right-sidebar{
+  background-color: #EEE !important;
+}
+.roam-sidebar-content {
+  background-color: #242020;;
+}
+.rm-sidebar-window div div a {
+  color: #8F1B32 !important;
+}
+.rm-sidebar-outline .rm-title-display {
+  font-size: 1.5em;
+}
+.rm-sidebar-outline .rm-title-editing-display {
+  font-size: 1.5em;
+  font-weight: bold;
+}
