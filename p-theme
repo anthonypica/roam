@@ -1,0 +1,129 @@
+/* Start Dark Mode for Phone */
+  
+@media (max-width: 800px) {
+
+  .roam-body {
+  background-color: #242020;
+  }
+  .rm-block-text {
+    color: #BBB;
+  }
+  .roam-topbar {
+    background-color: #242020;
+  }
+  .block-border-left {
+    border: none;
+  }
+}
+/* End Dark Mode for Phone */
+
+#roam-sidebar-logo {
+  display:none;  
+}
+
+/** Remove extra spacing **/
+.rm-block-separator {
+   display: none; 
+}
+
+.roam-article h1.rm-title-display {
+  color: #DC143C;
+}
+.roam-log-page h1.rm-title-display {
+  font-size:2em;
+  color: #DC143C;
+}
+
+
+/** POMODOR BUTTON **/
+.rm-pomodoro {
+
+}
+
+/** BULLET & Multibar **/
+.rm-bullet__inner {
+  background-color: #BBBBBB;
+}
+.rm-multibar {
+  border-right: 1px solid #DDDDDD;
+}
+
+.rm-mentions .rm-ref-page-view-title a {
+  color: #8F1B32;
+}
+h1.level2 a {
+  color: #8F1B32 !important;
+  font-size: .8em;
+  font-weight: bold;
+}
+.check-container input:checked ~ .checkmark {
+  background-color: rgb(0,100,0);
+}
+.rm-block-text > span > button.bp3-button {
+  background: #8F1B32 !important;
+  border: 2px solid #8F1B32 !important;
+  box-shadow:none !important;
+  width:100%;
+  color: #DDD !important;
+  font-weight:bold;
+}
+
+/** BLOCK EMBED **/
+
+.rm-embed-container {
+  background-color: transparent;
+  border-right: 1px dashed #CCC;
+  border-top: 1px dashed #CCC;
+  border-bottom: 1px dashed #CCC;
+  border-radius: 4px;
+}
+
+/* References Section */
+
+.rm-reference-container {
+}
+
+.rm-reference-main {
+  min-height: 25px;
+}
+.rm-reference-main > span {
+  display: block;
+  color: #888;
+  padding-right:10px;
+  float:right;
+}
+
+div.rm-ref-page-view {
+  /** border: 1px solid blue; **/
+}
+.rm-reference-item {
+  background-color: transparent;
+  margin-bottom:10px;
+  border: 1px dotted #AAA;
+  border-radius: 6px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.rm-reference-item .zoom-mentions-view div {
+  line-height: 1.3em;
+}
+.rm-zoom .parent-path-wrapper {
+  white-space: normal;
+}
+.rm-reference-item .rm-block-text {
+	max-width: 100%;
+}
+.rm-zoom .bp3-icon-chevron-right {
+  font-size: 12px;
+  color: #2082A8;
+}
+
+
+.rm-calc-val {
+  color: rgb(0,191,0);
+}
+
+/** ATTRIBUTES **/
+.rm-attr-ref {
+  color: #8F1B32;
+}
